@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(213, 213, 213);
+}
+
+button {
+  border: 1px solid rgb(87, 90, 88);
+  border-radius: 5px;
+  padding: 0 40px;
+  font-size: 26px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(87, 90, 88);
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(135, 139, 136);
+  text-decoration: none;
+}
+
+@media (min-width: 400px) {
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  background-color: rgb(87, 90, 88);
+  width: 100%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <title>Two</title>
+  </head>
+
+  <body>
+    <header
+      class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+    >
+      <a
+        href="/"
+        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
+      >
+        <svg class="bi me-2" width="40" height="32">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+        <span class="fs-4">Stranger Things</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link active" aria-current="page"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="one.html" class="nav-link">Season 1</a>
+        </li>
+        <li class="nav-item">
+          <a href="two.html" class="nav-link">Season 2</a>
+        </li>
+        <li class="nav-item">
+          <a href="three.html" class="nav-link">Season 3</a>
+        </li>
+        <li class="nav-item">
+          <a href="four.html" class="nav-link">Season 4</a>
+        </li>
+      </ul>
+    </header>
+    <div class="container">
+      <img src="images/two.png" alt="" />
+    </div>
+    <br />
+
+    <!-- <div class="container">
+      <button type="button" class="btn btn-success">Watch Season 2</button>
+    </div> -->
+
+    <div class="container">
+      <button
+        class="btn btn-default btn-lg btn-success"
+        data-bs-toggle="modal"
+        data-bs-target="#myModal"
+      >
+        Play Season 2
+      </button>
+
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">Whoa whoa, hold your horses!</div>
+            <div class="modal-body">
+              <p>This is no Pirate Bay, ok?</p>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-default" data-bs-dismiss="modal">
+                Ok
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

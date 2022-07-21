@@ -1,0 +1,26 @@
+.navbar {
+  background-color: rgb(161, 161, 177);
+  width: 100%;
+}
+
+.navelement a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.navelement {
+  border: 1px solid white;
+  padding: 10px;
+}
+
+@media (min-width: 500px) {
+  .navbar {
+    display: flex;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    text-align: center;
+  }
+}
