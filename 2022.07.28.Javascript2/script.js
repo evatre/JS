@@ -30,6 +30,6 @@ if (!isNaN(first || second) && operation === "+") {
   alert("The result of dividing both numbers is " + division);
 }
 
-if (operation == !("+" || "-" || "*" || "/")) {
+if (operation == !("+" && "-" && "*" && "/")) {
   alert("Please enter a valid operator.");
 }
