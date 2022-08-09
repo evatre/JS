@@ -24,8 +24,6 @@ const odd = array.filter(function (x) {
 
 let howManyOdd = odd.length;
 
-let eachSecond = 
-
 if (isNaN(first && second && third && fourth)) {
   alert("Only numeric values are allowed.");
 }
