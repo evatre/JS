@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="jquery.js" type="text/javascript"></script>
+    <script src="app.js"></script>
+    <title>DOM</title>
+  </head>
+  <body>
+    <div class="container">
+      <button onclick="addElement()">add</button>
+    </div>
+  </body>
+</html>
+
+//JavaScript piece for adding new elements function addElement() { const
+container = document.getElementsByClassName("container")[0]; const element =
+document.createElement("h1"); element.textContent = "Element added";
+container.appendChild(element); } // function removeElement() { // const
+container = document.getElementsByClassName("container")[0]; // const element =
+document.createElement("h1"); // container.removeChild(element); //
+element.remove(); // }

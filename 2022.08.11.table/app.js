@@ -21,13 +21,3 @@ function multiply() {
   let second = document.getElementById("second").value;
   document.getElementById("result").innerText = Number(first) * Number(second);
 }
-
-//another way to do it
-// function getResult(operation) {
-//   const resultElement = document.getElementById("result");
-//   const first = Number(document.getElementById("first").value);
-//   const second = Number(document.getElementById("second").value);
-//   switch (operation) {
-//     case "+":
-//   }
-// }
