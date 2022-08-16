@@ -1,0 +1,13 @@
+#table {
+  /* margin-top: 100px; */
+  margin-left: 200px;
+}
+
+#secondSelect {
+  margin-top: 80px;
+  margin-left: 450px;
+}
+
+table {
+  width: 50% !important;
+}
