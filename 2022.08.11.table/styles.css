@@ -3,11 +3,11 @@
   margin-left: 200px;
 }
 
-#filterInputs {
+#secondSelect {
   margin-top: 80px;
-  margin-left: 270px;
+  margin-left: 450px;
 }
 
-#secondSelect {
-  margin-left: 200px;
+table {
+  width: 50% !important;
 }
